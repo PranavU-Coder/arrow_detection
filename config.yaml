@@ -1,0 +1,10 @@
+# PATHS
+
+path: /home/pranav/Projects/CV/data
+train: images/train
+val: images/val
+
+# CLASSES
+
+names:
+  0: left

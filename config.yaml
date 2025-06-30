@@ -1,6 +1,6 @@
 # PATHS
 
-path: /home/pranav/Projects/CV/data
+path: /home/pranav/Projects/arrow_detection/data
 train: images/train
 val: images/val
 

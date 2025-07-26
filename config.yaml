@@ -2,10 +2,12 @@
 
 path: /home/pranav/Projects/arrow_detection/data
 train: images/train
-val: images/val
+val: images/test
+test: images/validate
 
 # CLASSES
 
+nc: 2
 names:
   0: left
   1: right

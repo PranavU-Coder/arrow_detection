@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-model = YOLO("runs/detect/train3/weights/best.pt")
+model = YOLO("runs/detect/train/weights/best.pt")
 
 cap = cv2.VideoCapture(0)
 
@@ -14,7 +14,7 @@ while True:
     if not ret:
         break
     
-    results = model(frame,conf=0.75)
+    results = model(frame,conf=0.5)
     
     annotated_frame = results[0].plot()
     

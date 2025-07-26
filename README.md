@@ -8,7 +8,9 @@ utilizes yolo11m model for classifying left and right arrows in real time
 total samples :
 
 train data : 2673
+
 validation data : 402
+
 test data : 136
 
 stats :

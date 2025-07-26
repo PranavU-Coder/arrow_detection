@@ -14,6 +14,7 @@ test data : 136
 stats :
 
 on validation dataset : 94-96% recall with 95-98% precision
+
 on test dataset : 96-99% recall with 95-96% precision
 
 problems : false positives

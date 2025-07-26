@@ -14,7 +14,7 @@ while True:
     if not ret:
         break
     
-    results = model(frame,conf=0.5)
+    results = model(frame,conf=0.6)
     
     annotated_frame = results[0].plot()
     
